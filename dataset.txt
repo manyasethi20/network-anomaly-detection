@@ -1,0 +1,3 @@
+Dataset used: KDD Cup 1999 Data 
+Download from: https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data?resource=download
+Place file inside data/ folder before running notebook.
