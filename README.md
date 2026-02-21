@@ -14,7 +14,7 @@ Detect abnormal network traffic patterns without labeled attack data.
 
 ## Dataset
 
-I used the **KDD Cup network traffic dataset**, which contains hundreds of thousands of connection records with different features such as protocol type, bytes transferred, connection duration, and more.
+I used the **KDD Cup 1999 Data dataset**, which contains hundreds of thousands of connection records with different features such as protocol type, bytes transferred, connection duration, and more.
 
 To simulate a real-world scenario where attack labels are not available, the label column was removed before training the model.
 
@@ -85,9 +85,9 @@ This project helped me understand:
 
 Some challenges I encountered:
 
-* handling categorical network features
-* understanding unsupervised evaluation methods
-* tuning model parameters
+* handling text-based network features
+* understanding evaluation for unsupervised models
+* choosing correct model settings
 * working with a large dataset
 
 ---
@@ -96,10 +96,10 @@ Some challenges I encountered:
 
 Possible extensions for this project:
 
-* compare with DBSCAN and One-Class SVM
-* hyperparameter tuning
-* real-time anomaly detection simulation
-* deploy as a monitoring tool
+* try other anomaly detection models
+* compare their performance
+* tune model parameters
+* simulate real-time traffic detection
 
 ---
 
